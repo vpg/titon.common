@@ -5,12 +5,6 @@
     "keywords": ["titon", "common", "traits", "augments", "base", "registry", "container", "dependency", "config"],
     "homepage": "http://titon.io",
     "license": "BSD-2",
-    "repositories": {
-      "vpg/titon.utility": {
-          "type":"vcs",
-          "url":"https://github.com/vpg/titon.utility"
-      }
-    },
     "replace" : {
           "titon/common":"*"
     },
