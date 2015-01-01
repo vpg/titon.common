@@ -1,0 +1,29 @@
+{
+    "name": "titon/common",
+    "type": "library",
+    "description": "The Titon common package provides global functionality like class traits and augmentation as well as dependency and configuration management.",
+    "keywords": ["titon", "common", "traits", "augments", "base", "registry", "container", "dependency", "config"],
+    "homepage": "http://titon.io",
+    "license": "BSD-2",
+    "authors": [
+        {
+            "name": "Miles Johnson",
+            "homepage": "http://milesj.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "titon/utility": "*"
+    },
+    "require-dev": {
+        "titon/test": "dev-master",
+        "titon/io": "*"
+    },
+    "suggest": {
+        "titon/io": "Use IO Readers to load configuration files"
+    },
+    "autoload": {
+        "psr-0": { "Titon\\Common": "src/" },
+        "files": [ "src/bootstrap.php" ]
+    }
+}
