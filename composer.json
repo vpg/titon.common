@@ -1,10 +1,19 @@
 {
-    "name": "titon/common",
+    "name": "vpg/titon.common",
     "type": "library",
     "description": "The Titon common package provides global functionality like class traits and augmentation as well as dependency and configuration management.",
     "keywords": ["titon", "common", "traits", "augments", "base", "registry", "container", "dependency", "config"],
     "homepage": "http://titon.io",
     "license": "BSD-2",
+    "repositories": {
+      "VPG_titon_utility": {
+          "type":"vcs",
+          "url":"https://github.com/vpg/titon.utility"
+      }
+    },
+    "replace" : {
+          "titon/common":"*"
+    },
     "authors": [
         {
             "name": "Miles Johnson",
@@ -13,14 +22,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "titon/utility": "*"
-    },
-    "require-dev": {
-        "titon/test": "dev-master",
-        "titon/io": "*"
-    },
-    "suggest": {
-        "titon/io": "Use IO Readers to load configuration files"
+        "vpg/titon.utility": "*"
     },
     "autoload": {
         "psr-0": { "Titon\\Common": "src/" },
