@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "vpg/titon.utility": "*"
+        "vpg/titon.utility": "1.1.*"
     },
     "autoload": {
         "psr-0": { "Titon\\Common": "src/" },
