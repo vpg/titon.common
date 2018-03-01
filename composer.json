@@ -4,7 +4,7 @@
     "description": "The Titon common package provides global functionality like class traits and augmentation as well as dependency and configuration management.",
     "keywords": ["titon", "common", "traits", "augments", "base", "registry", "container", "dependency", "config"],
     "homepage": "http://titon.io",
-    "license": "BSD-2",
+    "license": "BSD-2-Clause",
     "replace" : {
           "titon/common":"*"
     },
@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "vpg/titon.utility": "1.1.*"
+        "vpg/titon.utility": "^1.2"
     },
     "autoload": {
         "psr-0": { "Titon\\Common": "src/" },
